@@ -20,7 +20,7 @@ from shapely.geometry import *
 from shapely.affinity import *
 from shapely.ops import unary_union
 
-fig, ax = plt.subplots(figsize = (24, 24), constrained_layout = True)
+fig, ax = plt.subplots(figsize = (96, 96), constrained_layout = True)
 
 
 # York
