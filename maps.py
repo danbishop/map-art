@@ -28,13 +28,13 @@ fig, ax = plt.subplots(figsize = (96, 96), constrained_layout = True)
 #location = '53.96171,-1.07576'
 #r = 1550
 # Marske-by-the-sea
-name = "Teesside"
-location = '54.59317,-1.02894'
-r = 1300
+#name = "Teesside"
+#location = '54.59317,-1.02894'
+#r = 1300
 # Nuneaton
-#name = 'Nuneaton'
-#location = '52.5267,-1.4583'
-#r = 1550
+name = 'Nuneaton'
+location = '52.5267,-1.4583'
+r = 1550
 
 layers = plot(
     location, radius = r,
